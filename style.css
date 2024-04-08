@@ -1,0 +1,76 @@
+body{
+    width: 100%;
+
+}
+li {
+    list-style-type: none;
+}
+.nav-item {
+    list-style-type: none;
+}
+.bi {
+    color: #fff;
+    padding: 0 5px;
+    font-size: 1.2rem;
+}
+
+
+.nav-btn {
+    color: #fff;
+}
+.sec-sec-img{
+    width: 100%;
+}
+/* foorer trade mark */
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trade-mark{
+    font-size: .8rem;
+    
+}
+.trade-mark a{
+    color: gray;
+}
+.footer{
+    background-color: black;
+}
+.footer-contact :hover{
+    font-weight: bold;
+    color: white;
+}
+ul.menu-cart {
+    display: flex !important;
+}
+/* mwnu-bar icone button */
+@media screen and (max-width:340px) {
+ul.menu-cart{
+    /* visibility: hidden; */
+    display: none !important;
+}
+nav {
+    position: relative;
+}
+.logo-img {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    top: 33%;
+}
+
+.logo-img img {
+    
+}
+    
+}
+
+/* section two  */
+@media screen and (min-width:1024px){
+.sec-con{
+    margin: 0;
+}
+
+}
